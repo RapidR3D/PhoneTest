@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3501676691665790426
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5359713539488877533}
+  - component: {fileID: 4638261793025013922}
+  m_Layer: 0
+  m_Name: PathfindingPrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5359713539488877533
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3501676691665790426}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.45412, y: 0.37402, z: 1.68194}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4638261793025013922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3501676691665790426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 086ce2bba46813248a79a238ed9aeb8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PathfindingAlgorithm
+  width: 20
+  height: 20
+  cellSize: 1
+  floorTilePrefab: {fileID: 7174310327855464045, guid: 1f801a593641a3948a492f9999df3a03, type: 3}
+  wallPrefab: {fileID: 3682953748569520444, guid: e93b8107d35ed1a428d5213c7992792f, type: 3}
+  agentPrefab: {fileID: 8764435448364677700, guid: 0c1d5ed06d728774cbc4b7e5d20e79f6, type: 3}
+  markerPrefab: {fileID: 6513791500054938027, guid: 1bc94023c0d995240a2b9f05f0bdaca5, type: 3}

@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &9188324991436500299
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 318669901004906578, guid: 4b4dde4daf0288c44ae9b119671c64aa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1047.3066
+      objectReference: {fileID: 0}
+    - target: {fileID: 318669901004906578, guid: 4b4dde4daf0288c44ae9b119671c64aa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 117.80103
+      objectReference: {fileID: 0}
+    - target: {fileID: 318669901004906578, guid: 4b4dde4daf0288c44ae9b119671c64aa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1161.192
+      objectReference: {fileID: 0}
+    - target: {fileID: 318669901004906578, guid: 4b4dde4daf0288c44ae9b119671c64aa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 318669901004906578, guid: 4b4dde4daf0288c44ae9b119671c64aa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 318669901004906578, guid: 4b4dde4daf0288c44ae9b119671c64aa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 318669901004906578, guid: 4b4dde4daf0288c44ae9b119671c64aa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 318669901004906578, guid: 4b4dde4daf0288c44ae9b119671c64aa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 318669901004906578, guid: 4b4dde4daf0288c44ae9b119671c64aa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 318669901004906578, guid: 4b4dde4daf0288c44ae9b119671c64aa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 318669901005208626, guid: 4b4dde4daf0288c44ae9b119671c64aa, type: 3}
+      propertyPath: m_Name
+      value: KoiBoid Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6941087944146392817, guid: 4b4dde4daf0288c44ae9b119671c64aa, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 318669901005208626, guid: 4b4dde4daf0288c44ae9b119671c64aa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -3481696264974693691}
+    - targetCorrespondingSourceObject: {fileID: 318669901005208626, guid: 4b4dde4daf0288c44ae9b119671c64aa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4432356374937498477}
+  m_SourcePrefab: {fileID: 100100000, guid: 4b4dde4daf0288c44ae9b119671c64aa, type: 3}
+--- !u!1 &8930453841093890425 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 318669901005208626, guid: 4b4dde4daf0288c44ae9b119671c64aa, type: 3}
+  m_PrefabInstance: {fileID: 9188324991436500299}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &-3481696264974693691
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8930453841093890425}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &4432356374937498477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8930453841093890425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a22571916b22d148a5e636da26119a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AgentController
+  velocity: {x: 0, y: 0, z: 0}
+  maxSpeed: 5

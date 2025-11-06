@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6464325551425120433
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4911559270744699552}
+  - component: {fileID: 3201627652839271231}
+  m_Layer: 0
+  m_Name: FlockingPrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4911559270744699552
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6464325551425120433}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.45412, y: 0.37402, z: 1.68194}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3201627652839271231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6464325551425120433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95990734d4ab91c439f71ded161a73b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlockingAlgorithm
+  agentPrefab: {fileID: 8930453841093890425, guid: 09a03be2e9782c041aba99f6807b07fd, type: 3}
+  agentCount: 250
+  spawnRadius: 10
+  spawnInFrontOfCamera: 1
+  spawnDistanceFromCamera: 40
+  verticalOffsetFromCamera: -2
+  neighborRadius: 4
+  separationWeight: 4
+  alignmentWeight: 3
+  cohesionWeight: 5
+  maxSpeed: 6

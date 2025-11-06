@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: da011df7705b0dd4badf28751bda8b90
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31110
+  packageName: Fish School Bundle
+  packageVersion: 1.3.3
+  assetPath: Assets/Fish Schools/Scripts/SchoolBubbles.cs
+  uploadId: 204505
